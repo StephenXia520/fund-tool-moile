@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的基金持仓</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>我的基金持仓</h1>
+        <div class="total">
+            <div class="total-item">
+                <p>总持有金额</p >
+                <span id="total-value">23252.56元</span>
+            </div>
+            <div class="total-item">
+                <p>总持有收益</p >
+                <span id="total-profit" class="plus">+2141.27元</span>
+            </div>
+        </div>
+        <div class="fund-list" id="fund-list"></div>
+        <button id="refresh-btn">刷新实时估值</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
